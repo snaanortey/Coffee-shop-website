@@ -1,0 +1,97 @@
+/* nav bar and header */
+
+.page_header {
+  background-color: #fff0ed;
+  text-align: left;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-size: 21px;
+  font-weight: 400;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* main */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: light 300;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: light 300;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  font-weight: 400;
+}
+
+#about {
+  background-color: #fff0ed;
+}
+
+.button {
+  background-color: #5bacc3;
+  border: none;
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  font-weight: normal;
+}
+
+.discount {
+  font-size: 45px;
+  font-weight: bold;
+  font-weight: 400;
+  background-color: #393939;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  width: 1200px;
+}
+
+.firstNitro {
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.price {
+    color: #5bacc3
+}
+
+/* Footer */
+.footer {
+background-color: #fff0ed;
+}
+
+.icon {
+  min-width: 50px;
+  max-width: 120px;
+  margin-left: 0;
+}
+
+.socialMedia {
+    padding: 3px;
+    
+}
+
+.days {
+    font-weight: bold;
+}
