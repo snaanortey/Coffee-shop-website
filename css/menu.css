@@ -118,8 +118,9 @@ p {
 .header__nav--link-three {
   color: #5bacc3;
   text-decoration-color: #5bacc3;
-  padding: 1.5rem 5rem;
+  padding: 2rem 2rem;
   width: 25rem;
+
 }
 
 /* Main */
@@ -187,8 +188,26 @@ p {
   background-size: cover;
 }
 
-.hot_drinks {
+.hot-drinks {
   background-color: #fff0ed;
+}
+
+.food-content__div {
+  margin: auto;
+  text-align: center;
+  width: 35%;
+  padding-top: 2rem;
+}
+
+.food-content__div h3 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.food-content__paragraph {
+  font-style: italic;
+  font-size: 1.8rem;
+  margin-bottom: 0;
 }
 
 .cold_drinks {
@@ -204,4 +223,6 @@ p {
   text-align: center;
   max-width: 1904px;
   font-style: normal;
+  margin: 0;
+  padding-bottom: 2rem;
 }
