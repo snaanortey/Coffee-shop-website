@@ -58,7 +58,7 @@
           </p>
           <br />
 
-          <button class="about__button">SHOP NOW</button>
+          <a class="about__button" href="./pages/menu.html">SHOP NOW</a>
         </div>
         <div class="about__image"></div>
       </section>
@@ -127,44 +127,53 @@
       </section>
 
       <section class="discount">
-        <div>
-          <p >
+        <div class="discount__div">
+          <p class="discount__paragraph">
             Get 20% off your first order with code:
-            <span class="firstNitro">FirstNitro</span>
+            <span class="discount__paragraph-bold">FirstNitro</span>
           </p>
         </div>
       </section>
     </main>
 
-    <section class="footer">
-      <footer>
-        <h3>Address</h3>
-        <p>503 Broadway Penthouse</p>
-        <p>New York</p>
-
-        <h3>Hours</h3>
-        <p><span class="days">Monday - Friday:</span> 9am - 7pm</p>
-        <p><span class="days">Saturday - Sunday:</span> 10am - 5pm</p>
-
-        <h3>Social</h3>
-        <figure class="icon socialMediaIcon">
+    <footer class="footer">
+      <div class="footer__div footer__div--address">
+        <h3 class="footer__div--title">Address</h3>
+        <p class="footer__div--paragraph">503 Broadway Penthouse</p>
+        <p class="footer__div--paragraph">New York</p>
+      </div>
+      <div class="footer__div footer__div--time">
+        <h3 class="footer__div--title">Hours</h3>
+        <p class="footer__div--paragraph">
+          <span class="footer__div-days">Monday - Friday:</span> 9am - 7pm
+        </p>
+        <p class="footer__div--paragraph">
+          <span class="footer__div-days">Saturday - Sunday:</span> 10am - 5pm
+        </p>
+      </div>
+      <div class="footer__div footer__div--social">
+        <h3 class="footer__div--title">Social</h3>
+        <figure class="footer__social--icons">
           <a href="https://www.facebook.com/">
             <img
-              class="socialMedia"
+              class="footer__social--icon-image"
               src="./assets/Facebook-Icon.svg"
               alt="Facebook"
           /></a>
           <a href="https://www.yelp.co.uk/london"
-            ><img class="socialMedia" src="./assets/Yelp-Icon.svg" alt="Yelp"
+            ><img
+              class="footer__social--icon-image"
+              src="./assets/Yelp-Icon.svg"
+              alt="Yelp"
           /></a>
           <a href="https://www.instagram.com/"
             ><img
-              class="socialMedia"
+              class="footer__social--icon-image"
               src="./assets/Instagram-Icon.svg"
               alt="Instagram"
           /></a>
         </figure>
-      </footer>
-    </section>
+      </div>
+    </footer>
   </body>
 </html>
