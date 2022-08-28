@@ -78,7 +78,7 @@ p {
 
 .header__nav--link {
   list-style-type: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   font-weight: normal;
   text-align: left;
@@ -172,12 +172,14 @@ p {
 }
 
 .product__description {
-  width: 22%;
+  width: 27%;
   margin: auto;
   background-color: #fff;
   border: 1px none;
   border-radius: 1rem;
   box-shadow: 5px 5px 5px #b5b0b0;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .product__description--image {
@@ -218,7 +220,7 @@ p {
   font-weight: normal;
   text-align: center;
   display: block;
-  width: 10%;
+  width: 13%;
   height: 6rem;
   line-height: 6rem;
 }
@@ -241,7 +243,7 @@ p {
 }
 
 .discount__paragraph {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .discount__paragraph-bold {
@@ -257,7 +259,7 @@ p {
 }
 
 .footer__div {
-  padding: 5rem;
+  padding: 2rem;
   margin: auto 5rem;
 }
 
@@ -275,7 +277,7 @@ p {
 }
 
 .footer__div--address {
-  margin-left: 20rem;
+  margin-left: 16rem;
 }
 
 .footer__social--icons {
