@@ -1,4 +1,15 @@
-body {
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }

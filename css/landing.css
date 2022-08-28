@@ -1,22 +1,130 @@
-/* nav bar and header */
-
-.page_header {
-  background-color: #fff0ed;
-  text-align: left;
+/* resets */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-nav ul li {
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* header */
+.header {
+  background-color: #fff0ed;
+  text-align: left;
+  padding: 1.5rem;
+}
+
+.header__icon {
+  margin-left: 0;
+  display: inline;
+  min-width: 2%;
+  max-width: 5%;
+  position: relative;
+  top: 1rem;
+}
+
+.header__icon-text {
+  display: inline;
+  position: relative;
+  right: 4rem;
+  font-size: 5rem;
+}
+
+.header__image {
+  max-width: 5rem;
+  min-width: 3rem;
+}
+
+.header__nav {
+  display: inline;
+  position: relative;
+  right: 6rem;
+}
+
+.header__nav--list {
+  display: inline;
+}
+
+.header__nav--link {
   list-style-type: none;
   font-size: 21px;
   font-weight: 400;
   font-weight: normal;
   text-align: left;
+  display: inline;
+  padding: 2rem;
+}
+
+.header__nav--link {
+  text-decoration: solid;
+}
+
+.header__nav--link-one,
+.header__nav--link-two {
+  color: black;
+}
+
+.header__nav--link-three {
+  color: #5bacc3;
+  text-decoration-color: #5bacc3;
 }
 
 /* main */
 
-body {
-  font-family: "Open Sans", sans-serif;
+/* about-section */
+
+.about {
+  background-color: #fff0ed;
+  margin: 0;
+  display: flex;
+}
+
+.about__text {
+  display: inline;
+  margin: auto 20% auto 10%;
+  flex: 50%;
+ 
+}
+
+.about__title {
+  margin: 0;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+.about__paragraph {
+  display: flex;
+  width: 38rem;
+  padding-bottom: 0.5rem;
+}
+
+.about__button {
+  background-color: #5bacc3;
+  border: none;
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  font-weight: normal;
+  max-width: 20rem;
+  min-width: 15rem;
+  max-height: 7rem;
+  min-height: 5rem;
+}
+
+.about__image {
+  background-image: url("../assets/coffeebeans-hero.png");
+  background-repeat: no-repeat;
+  min-height: 60rem;
+  flex: 50%;
+
 }
 
 h1 {
@@ -48,12 +156,6 @@ p {
 }
 
 .button {
-  background-color: #5bacc3;
-  border: none;
-  color: white;
-  font-size: 21px;
-  font-weight: 400;
-  font-weight: normal;
 }
 
 .discount {
@@ -68,17 +170,17 @@ p {
 }
 
 .firstNitro {
-    font-weight: bold;
-    font-weight: 700;
+  font-weight: bold;
+  font-weight: 700;
 }
 
 .price {
-    color: #5bacc3
+  color: #5bacc3;
 }
 
 /* Footer */
 .footer {
-background-color: #fff0ed;
+  background-color: #fff0ed;
 }
 
 .icon {
@@ -88,10 +190,9 @@ background-color: #fff0ed;
 }
 
 .socialMedia {
-    padding: 3px;
-    
+  padding: 3px;
 }
 
 .days {
-    font-weight: bold;
+  font-weight: bold;
 }
