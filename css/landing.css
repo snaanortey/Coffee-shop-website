@@ -55,7 +55,7 @@ body {
 
 .header__nav--link {
   list-style-type: none;
-  font-size: 21px;
+  font-size: 2.5rem;
   font-weight: 400;
   font-weight: normal;
   text-align: left;
@@ -75,6 +75,7 @@ body {
 .header__nav--link-three {
   color: #5bacc3;
   text-decoration-color: #5bacc3;
+  padding: 1.5rem 5rem;
 }
 
 /* main */
@@ -91,7 +92,6 @@ body {
   display: inline;
   margin: auto 20% auto 10%;
   flex: 50%;
- 
 }
 
 .about__title {
@@ -124,7 +124,95 @@ body {
   background-repeat: no-repeat;
   min-height: 60rem;
   flex: 50%;
+}
 
+/* Product section */
+
+.product {
+  background-color: #f7f7f7;
+  padding-bottom: 3rem;
+}
+
+.product__title {
+  text-align: center;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.product__list {
+  display: flex;
+}
+
+.product__description {
+  width: 18%;
+  margin: auto;
+  background-color: #fff;
+  border: 1px none;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px #b5b0b0;
+}
+
+div.product__description > * {
+}
+
+.product__description--image {
+  margin: auto;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.product__description--heading {
+  text-align: center;
+}
+
+.product__description--price {
+  color: #5bacc3;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 3.5rem;
+  font-weight: normal;
+  font-weight: 400;
+}
+
+.product__button-div {
+  text-align: center;
+  margin: 6rem auto 6rem;
+ 
+
+}
+
+.product__button {
+  text-decoration: solid;
+  color: #fff;
+  background-color: #5bacc3;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 10%;
+ height: 6rem;
+ line-height: 6rem;
+  
+}
+
+.discount {
+  display: flex
+  text-align: center;
+  width: 30rem;
+  min-height: 15rem;
+  max-height: 17rem;
+  margin: auto;
+  font-size: 6rem;
+  font-weight: bold;
+  font-weight: 400;
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  width: 80%;
 }
 
 h1 {
@@ -140,42 +228,27 @@ h2 {
 }
 
 h3 {
-  font-size: 33px;
+  font-size: 4rem;
   font-weight: light 300;
   font-weight: lighter;
 }
 
-p {
-  font-size: 18px;
-  font-weight: normal;
-  font-weight: 400;
-}
+
 
 #about {
   background-color: #fff0ed;
 }
 
-.button {
-}
+
 
 .discount {
-  font-size: 45px;
-  font-weight: bold;
-  font-weight: 400;
-  background-color: #393939;
-  color: white;
-  margin-top: 0;
-  text-align: center;
-  width: 1200px;
+  
+
 }
 
 .firstNitro {
   font-weight: bold;
   font-weight: 700;
-}
-
-.price {
-  color: #5bacc3;
 }
 
 /* Footer */

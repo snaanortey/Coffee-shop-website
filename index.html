@@ -63,26 +63,76 @@
         <div class="about__image"></div>
       </section>
 
-      <section>
-        <h2>Our Products</h2>
-        <img src="./assets/coffeebeans.png" alt="coffee beans" />
-        <h3>Coffee Beans</h3>
-        <p class="price">$18.99</p>
+      <section class="product">
+        <h2 class="product__title">Our Products</h2>
+        <div class="product__list">
+          <div class="product__description">
+            <div>
+              <img
+                class="product__description--image"
+                src="./assets/coffeebeans.png"
+                alt="coffee beans"
+              />
+            </div>
 
-        <img src="./assets/coldbrew.png" alt="cold brew" />
-        <h3>Cold Brew</h3>
-        <p class="price">$4.99</p>
+            <div class="product__description--heading">
+              <h3>Coffee Beans</h3>
+            </div>
 
-        <img src="./assets/inhousebrew.png" alt="in-house brew" />
-        <h3>In-house Brew</h3>
-        <p class="price">$2.99</p>
+            <div>
+              <p class="product__description--price">$18.99</p>
+            </div>
+          </div>
 
-        <a class="button" href="./pages/menu.html">VIEW ALL</a>
+          <div class="product__description">
+            <div>
+              <img
+                class="product__description--image"
+                src="./assets/coldbrew.png"
+                alt="cold brew"
+              />
+            </div>
 
-        <p class="discount">
-          Get 20% off your first order with code:
-          <span class="firstNitro">FirstNitro</span>
-        </p>
+            <div>
+              <h3 class="product__description--heading">Cold Brew</h3>
+            </div>
+
+            <div>
+              <p class="product__description--price">$4.99</p>
+            </div>
+          </div>
+
+          <div class="product__description">
+            <div>
+              <img
+                class="product__description--image"
+                src="./assets/inhousebrew.png"
+                alt="in-house brew"
+              />
+            </div>
+
+            <div>
+              <h3 class="product__description--heading">In-house Brew</h3>
+            </div>
+
+            <div>
+              <p class="product__description--price">$2.99</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product__button-div">
+          <a class="product__button" href="./pages/menu.html">VIEW ALL</a>
+        </div>
+      </section>
+
+      <section class="discount">
+        <div>
+          <p >
+            Get 20% off your first order with code:
+            <span class="firstNitro">FirstNitro</span>
+          </p>
+        </div>
       </section>
     </main>
 
