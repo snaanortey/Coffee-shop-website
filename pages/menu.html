@@ -14,41 +14,60 @@
   </head>
 
   <body>
-    <header>
-      <section class="page_header">
-        <a class="icon" href="../index.html#nitroCoffee">
-          <img class="page_header"
-            src="../assets/coffee-beans-logo-and-footer.svg"
-            alt="coffee bean logo"
-        /></a>
-        <h3 class="logoText">nitro</h3>
+    <div class="coffee-circle--image">
+      <header class="header">
+        <div class="header__main">
+          <figure class="header__icon">
+            <a href="#nitroCoffee">
+              <img
+                class="header__image"
+                src="../assets/coffee-beans-logo-and-footer.svg"
+                alt="coffee bean logo"
+            /></a>
+          </figure>
+          <h3 class="header__icon-text">nitro</h3>
+          <nav class="header__nav">
+            <ul class="header__nav--list">
+              <li class="header__nav--list">
+                <a class="header__nav--link header__nav--link-one" href="#about"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="header__nav--list">
+                <a
+                  class="header__nav--link header__nav--link-two"
+                  href="./pages/menu.html"
+                  >MENU</a
+                >
+              </li>
+              <li class="header__nav--list">
+                <a
+                  class="header__nav--link header__nav--link-three"
+                  href="./pages/menu.html"
+                  >SHOP NOW</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
 
-        <ul>
-          <a href="../index.html#about">ABOUT</a>
-          <a href="#menu_section">MENU</a>
-          <a href="#menu_section">SHOPNOW</a>
-        </ul>
-      </section>
-    </header>
+        <section class="menu-title">
+          <h1 class="menu-title__heading">MENU</h1>
 
-    <section id="menu_section">
-      <div class="container">
-        <h1>MENU</h1>
-
-        <img
-          class="coffee-circle"
-          src="/assets/coffee-circle.jpg"
-          alt="coffee-circle"
-        />
-      </div>
-      <nav class="navmain">
-        <ul>
-          <li><a class="navMainLink" href="#hotDrinks">HOT DRINKS</a></li>
-          <li><a class="navMainLink" href="#coldDrinks">COLD DRINKS</a></li>
-          <li><a class="navMainLink" href="#pastries">PASTRIES</a></li>
-        </ul>
-      </nav>
-    </section>
+          <nav class="menu-title__nav">
+            <div class="menu-title__nav-link">
+              <a  href="#hotDrinks">HOT DRINKS</a>
+            </div>
+            <div class="menu-title__nav-link">
+              <a href="#coldDrinks">COLD DRINKS</a>
+            </div>
+            <div class="menu-title__nav-link">
+              <a href="#pastries">PASTRIES</a>
+            </div>
+          </nav>
+        </section>
+      </header>
+    </div>
 
     <section class="hot_drinks">
       <h2 id="hotDrinks">Hot Drinks</h2>
