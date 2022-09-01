@@ -1,151 +1,35 @@
-/* resets */
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-h1 {
-  font-size: 7rem;
-  font-weight: 300;
-  font-weight: lighter;
-}
-
-h2 {
-  font-size: 6rem;
-  font-weight: light 300;
-  font-weight: lighter;
-}
-
-h3 {
-  font-size: 4rem;
-  font-weight: light 300;
-  font-weight: lighter;
-}
-
-p {
-  font-size: 1.5rem;
-}
-
-/* header */
-
-.coffee-circle--image {
+.menu-image {
   background-image: url("../assets/coffee-circle.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 75rem;
-}
-
-.header {
-  background-color: #fff0ed;
-  text-align: left;
-  padding: 1.5rem;
-  display: inline;
-}
-
-.header__main {
-  position: absolute;
-  top: 0%;
-  bottom: 90%;
-  background-color: #fff0ed;
-  width: 100%;
-  display: flex;
-}
-
-.header__icon {
-  margin-left: 0;
-  display: inline;
-  min-width: 2%;
-  max-width: 5%;
-  position: relative;
-  top: 1rem;
-  margin: 0;
-}
-
-.header__icon-text {
-  display: flex;
-  font-size: 4rem;
-  font-weight: lighter;
-  margin: 0;
-  padding-top: 1rem;
-}
-
-.header__image {
-  max-width: 5rem;
-  min-width: 3rem;
-}
-
-.header__nav {
-  display: flex;
-  right: 6rem;
-}
-
-.header__nav--list {
-  display: flex;
-}
-
-.header__nav--link {
-  list-style-type: none;
-  font-size: 2rem;
-  font-weight: 400;
-  font-weight: normal;
-  text-align: left;
-  display: inline;
-  padding: 2rem;
-}
-
-.header__nav--link {
-  text-decoration: solid;
-}
-
-.header__nav--link-one,
-.header__nav--link-two {
-  color: black;
-}
-
-.header__nav--link-three {
-  color: #5bacc3;
-  text-decoration-color: #5bacc3;
-  padding: 2rem 2rem;
-  width: 25rem;
-
+  height: 70rem;
 }
 
 /* Main */
-
 /* menu title */
+.menu {
+}
 
-.menu-title__heading {
+.menu__heading {
   font-size: 6rem;
   font-weight: 300;
-  font-weight: lighter;
   background-color: #393939;
   color: white;
   width: 30rem;
   max-height: 3em;
   min-height: 3em;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   position: absolute;
+  top: 0;
   right: 40%;
-  top: 10%;
 }
 
-.menu-title__nav {
+.nav {
   position: absolute;
-  bottom: -3%;
+  bottom: 0;
   width: 100%;
   height: 7rem;
   background-color: #393939;
@@ -159,13 +43,13 @@ p {
   padding-bottom: 3rem;
 }
 
-.menu-title__nav-link {
+.nav__link {
   color: white;
   text-decoration: none;
   padding: 3rem;
 }
 
-.menu-title__nav-link a {
+.nav__link a {
   color: white;
   text-decoration: none;
   border-left: solid #5bacc3 6px;
