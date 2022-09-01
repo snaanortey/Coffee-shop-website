@@ -1,15 +1,86 @@
+/* resets */
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* header */
+.header {
+  background-color: #fff0ed;
+  text-align: left;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon__box {
+  margin-left: 0;
+  display: inline;
+  min-width: 2%;
+  max-width: 5%;
+  position: relative;
+  top: 1rem;
+}
+
+.icon-text {
+  display: inline;
+  position: relative;
+  right: 4rem;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: black;
+}
+
+div.icon__div a {
+  text-decoration: solid;
+}
+
+.icon__image {
+  max-width: 5rem;
+  min-width: 3rem;
+}
+
+.nav__lists {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.nav__list {
+  display: inline;
+}
+
+.nav__link {
+  list-style-type: none;
+  font-size: 2rem;
+  font-weight: 400;
+  font-weight: normal;
+  text-align: left;
+  display: inline;
+  padding-right: 3rem;
+  text-decoration: solid;
+}
+
+.nav__link--one,
+.nav__link--two {
+  color: black;
+}
+
+.nav__link--three {
+  color: #5bacc3;
+  text-decoration-color: #5bacc3;
+}
