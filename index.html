@@ -13,38 +13,36 @@
   </head>
   <body>
     <header class="header">
-      <figure class="header__icon">
-        <a href="#nitroCoffee">
-          <img
-            class="header__image"
-            src="./assets/coffee-beans-logo-and-footer.svg"
-            alt="coffee bean logo"
-        /></a>
-      </figure>
-      <h3 class="header__icon-text">nitro</h3>
-      <nav class="header__nav">
-        <ul class="header__nav--list">
-          <li class="header__nav--list">
-            <a class="header__nav--link header__nav--link-one" href="#about"
-              >ABOUT</a
-            >
-          </li>
-          <li class="header__nav--list">
-            <a
-              class="header__nav--link header__nav--link-two"
-              href="./pages/menu.html"
-              >MENU</a
-            >
-          </li>
-          <li class="header__nav--list">
-            <a
-              class="header__nav--link header__nav--link-three"
-              href="./pages/menu.html"
-              >SHOP NOW</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div class="icon__div">
+        <figure class="icon__box">
+          <a class="icon__link" href="#nitroCoffee">
+            <img
+              class="icon__image"
+              src="./assets/coffee-beans-logo-and-footer.svg"
+              alt="coffee bean logo"
+          /></a>
+        </figure>
+        <a href="#nitroCoffee"><h3 class="icon-text">nitro</h3></a>
+      </div>
+      <div class="nav__div">
+        <nav class="nav__box">
+          <ul class="nav__lists">
+            <li class="nav__list">
+              <a class="nav__link nav__link--one" href="#about">ABOUT</a>
+            </li>
+            <li class="nav__list">
+              <a class="nav__link nav__link--two" href="./pages/menu.html"
+                >MENU</a
+              >
+            </li>
+            <li class="nav__list">
+              <a class="nav__link nav__link--three" href="./pages/menu.html"
+                >SHOP NOW</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -67,56 +65,63 @@
         <h2 class="product__title">Our Products</h2>
         <div class="product__list">
           <div class="product__description">
-            <div>
+            <div class="product__image__div">
               <img
-                class="product__description--image"
+                class="product__image"
                 src="./assets/coffeebeans.png"
                 alt="coffee beans"
               />
             </div>
 
-            <div class="product__description--heading">
-              <h3>Coffee Beans</h3>
-            </div>
+            <div class="product__summary">
+              <div>
+                <h3 class="product__description--heading">Coffee Beans</h3>
+                <p class="product__summaryParagraph">Pack of 3</p>
+              </div>
 
-            <div>
-              <p class="product__description--price">$18.99</p>
+              <div>
+                <p class="product__description--price">$19</p>
+              </div>
             </div>
           </div>
 
           <div class="product__description">
-            <div>
+            <div class="product__image__div">
               <img
-                class="product__description--image"
+                class="product__image"
                 src="./assets/coldbrew.png"
                 alt="cold brew"
               />
             </div>
+            <div class="product__summary">
+              <div>
+                <h3 class="product__description--heading">Cold Brew</h3>
+                <p class="product__summaryParagraph">1 can</p>
+              </div>
 
-            <div>
-              <h3 class="product__description--heading">Cold Brew</h3>
-            </div>
-
-            <div>
-              <p class="product__description--price">$4.99</p>
+              <div>
+                <p class="product__description--price">$4.99</p>
+              </div>
             </div>
           </div>
 
           <div class="product__description">
-            <div>
+            <div class="product__image__div">
               <img
-                class="product__description--image"
+                class="product__image"
                 src="./assets/inhousebrew.png"
                 alt="in-house brew"
               />
             </div>
+            <div class="product__summary">
+              <div>
+                <h3 class="product__description--heading">In-house Brew</h3>
+                <p class="product__summaryParagraph">1 cup</p>
+              </div>
 
-            <div>
-              <h3 class="product__description--heading">In-house Brew</h3>
-            </div>
-
-            <div>
-              <p class="product__description--price">$2.99</p>
+              <div>
+                <p class="product__description--price">$2.99</p>
+              </div>
             </div>
           </div>
         </div>
@@ -127,48 +132,46 @@
       </section>
 
       <section class="discount">
-        <div class="discount__div">
-          <p class="discount__paragraph">
-            Get 20% off your first order with code:
-            <span class="discount__paragraph-bold">FirstNitro</span>
-          </p>
-        </div>
+        <p class="discount__paragraph">
+          Get 20% off your first order with code:
+          <span class="discount__paragraph-bold">FirstNitro</span>
+        </p>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer__div footer__div--address">
-        <h3 class="footer__div--title">Address</h3>
-        <p class="footer__div--paragraph">503 Broadway Penthouse</p>
-        <p class="footer__div--paragraph">New York</p>
+        <h3 class="footer__title">Address</h3>
+        <p class="footer__paragraph">503 Broadway Penthouse</p>
+        <p class="footer__paragraph">New York</p>
       </div>
       <div class="footer__div footer__div--time">
-        <h3 class="footer__div--title">Hours</h3>
-        <p class="footer__div--paragraph">
-          <span class="footer__div-days">Monday - Friday:</span> 9am - 7pm
+        <h3 class="footer__title">Hours</h3>
+        <p class="footer__paragraph">
+          <span class="footer__days">Monday - Friday:</span> 9am - 7pm
         </p>
-        <p class="footer__div--paragraph">
-          <span class="footer__div-days">Saturday - Sunday:</span> 10am - 5pm
+        <p class="footer__paragraph">
+          <span class="footer__days">Saturday - Sunday:</span> 10am - 5pm
         </p>
       </div>
       <div class="footer__div footer__div--social">
-        <h3 class="footer__div--title">Social</h3>
-        <figure class="footer__social--icons">
+        <h3 class="footer__title">Social</h3>
+        <figure class="footer__icon">
           <a href="https://www.facebook.com/">
             <img
-              class="footer__social--icon-image"
+              class="footer__icon-image"
               src="./assets/Facebook-Icon.svg"
               alt="Facebook"
           /></a>
           <a href="https://www.yelp.co.uk/london"
             ><img
-              class="footer__social--icon-image"
+              class="footer__icon-image"
               src="./assets/Yelp-Icon.svg"
               alt="Yelp"
           /></a>
           <a href="https://www.instagram.com/"
             ><img
-              class="footer__social--icon-image"
+              class="footer__icon-image"
               src="./assets/Instagram-Icon.svg"
               alt="Instagram"
           /></a>
