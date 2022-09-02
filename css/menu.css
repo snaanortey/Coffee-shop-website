@@ -44,7 +44,7 @@
   right: 1rem;
 }
 
-.nav {
+.nav-menu {
   min-width: 100%;
   max-width: 100%;
   min-height: 6rem;
@@ -59,13 +59,13 @@
   padding-bottom: 2rem;
 }
 
-.nav__link {
+.nav-menu__link {
   color: white;
   text-decoration: none;
   padding: 3rem;
 }
 
-.nav__link a {
+.nav-menu__link a {
   color: white;
   text-decoration: none;
   border-left: solid #5bacc3 4px;
