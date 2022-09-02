@@ -84,3 +84,20 @@ div.icon__div a {
   color: #5bacc3;
   text-decoration-color: #5bacc3;
 }
+
+/* fonts */
+
+h1, h2 {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
