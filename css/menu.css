@@ -1,10 +1,13 @@
-.menu-image {
+.menu-backgroundimage {
   background-image: url("../assets/coffee-circle.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 70rem;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 57.5rem;
+  max-height: 60rem;
 }
 
 /* Main */
@@ -13,34 +16,47 @@
 }
 
 .menu__heading {
-  font-size: 6rem;
-  font-weight: 300;
   background-color: #393939;
   color: white;
-  width: 30rem;
-  max-height: 3em;
-  min-height: 3em;
+  min-width: 28rem;
+  max-width: 30rem;
+  max-height: 20rem;
+  min-height: 18rem;
   text-align: center;
   margin: 0 auto;
   position: absolute;
-  top: 0;
+  top: 40%;
   right: 40%;
+  line-height: 18rem;
+}
+
+.menu__heading-border {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #5bacc3;
+  min-width: 28rem;
+  max-width: 30rem;
+  max-height: 20rem;
+  min-height: 18rem;
+  overflow: visible;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .nav {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 7rem;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 6rem;
+  max-height: 8rem;
   background-color: #393939;
   display: flex;
   align-items: center;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-weight: 400;
-  font-weight: normal;
   justify-content: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .nav__link {
@@ -52,61 +68,45 @@
 .nav__link a {
   color: white;
   text-decoration: none;
-  border-left: solid #5bacc3 6px;
-  padding-left: 1.5rem;
+  border-left: solid #5bacc3 4px;
+  padding-left: 2rem;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.container {
-  position: relative;
-  left: 50%;
-}
+/* menu content */
 
-.coffee-circle {
-  max-width: 100%;
-  min-width: 100%;
-  min-height: 575px;
-  max-height: 600px;
-  background-position: center;
-  background-size: cover;
-}
-
-.hot-drinks {
+.menu-content--hot-drinks,
+.menu-content--pastries {
   background-color: #fff0ed;
 }
 
-.food-content__div {
+.menu-content__details {
   margin: auto;
   text-align: center;
   width: 35%;
   padding-top: 2rem;
 }
 
-.food-content__div h3 {
+.menu-content__details h3 {
   margin: 0;
-  font-size: 3rem;
 }
 
-.food-content__paragraph {
+.menu-content__details h2 {
+  margin: 0 auto 4rem auto;
+}
+
+.menu-content__paragraph {
   font-style: italic;
-  font-size: 1.8rem;
   margin-bottom: 0;
 }
 
-.cold_drinks {
+.menu-content--cold_drinks {
   background-color: #f7f7f7;
 }
 
-.pastries_section {
-  background-color: #fff0ed;
-}
-
-.prices {
+.menu-content__prices {
   color: #5bacc3;
-  text-align: center;
-  max-width: 1904px;
-  font-style: normal;
   margin: 0;
   padding-bottom: 2rem;
 }
